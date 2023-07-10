@@ -71,7 +71,7 @@
 
 /* Accueil */
 
-.accueil{
+.accueil, .expert{
   overflow: hidden;
   background-image: url('./assets//images/accueilBg.jpg');
   background-size: cover;
@@ -108,7 +108,7 @@
 
 /* portfolio */
 
-.portfolio{
+.portfolio, .outils, .experience{
   background-color: rgba(228, 227, 225, 0.568);
 }
 .card:hover{
@@ -131,6 +131,75 @@
   outline: none !important;
 }
 
+/* Competences */
+.outils, .lang, .hobbi{
+  color: rgb(24, 188, 197) ;
+}
+.progress{
+  width: 100%;
+  background-color: rgb(24, 188, 197) !important;
+}
+.border{
+  background-color: rgba(204, 204, 205, 0.217);
+  height: 18px;
+}
+.progress1{
+  height: 18px;
+  width: 75%;
+  background-color: rgb(24, 188, 197) !important;
+}
+.progress2{
+  height: 18px;
+  width: 85%;
+  background-color: rgb(24, 188, 197) !important;
+}
+.progress3{
+  height: 18px;
+  width: 95%;
+  background-color: rgb(24, 188, 197) !important;
+}
+.text{
+  line-height: 1;
+}
+
+/* experiences */
+.annos{
+  color: rgb(255, 128, 0);
+  margin-bottom: -4px;
+}
+
+/* Contact */
+.textarea{
+  height: 250px !important;
+}
+.logo{
+  background-color: rgba(204, 204, 205, 0.217);
+  overflow-y: hidden;
+  height: 550px;
+}
+.nom::placeholder{
+  font-size: 22px;
+  
+}
+.nom{
+  border: none !important;
+  border-bottom: 3px solid grey !important;
+}
+.btn1{
+  background-color: rgb(255, 128, 0) !important;
+  color: aliceblue !important;
+  border: none !important;
+  padding:.3rem!important ;
+  
+}
+
+.footer{
+  height: 80px;
+  background: linear-gradient(180deg, white 0%, 
+            rgb(8, 199, 141) 100%);
+  margin-left: -10px; 
+  margin-right: -10px;        
+}
 
 
 
@@ -141,5 +210,11 @@
   .contact{
     flex-direction: column;
     height: 200px;
+  }
+
+  .logo{
+    background-color: rgba(204, 204, 205, 0.217);
+    overflow-y: hidden;
+    height: 325px;
   }
 }
